@@ -1,0 +1,78 @@
+body{
+	padding-top: 50px;
+}
+#headerwrapper{
+	position:relative;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	height:600px;
+	background-image:url(../img/background.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 700px;
+	background-position: top-center;
+	background-attachment: fixed;
+}
+#logotext{
+	position:absolute;
+	width:100%;
+	height:180px;
+	background-image:url(../img/logotext.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 70% 100px;
+	top:50%;
+	margin-top: -90px;
+	
+	
+}
+#partial-headerwrapper{
+	position:relative;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	height:210px;
+	background-image:url(../img/background.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 700px;
+	background-position: top-center;
+	background-attachment: fixed;
+}
+#partial-logotext{
+	position:absolute;
+	width:100%;
+	height:180px;
+	background-image:url(../img/logotext.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 70% 100px;
+	top:50%;
+	margin-top: -90px;
+	
+	
+}
+#footer{
+    margin-top: 50px;
+}
+.table-auto{
+    width:auto;
+  /*makes the table to be small fitting the sentences*/
+margin: 0 auto;  
+/*puts table in the middle*/
+}
+#add-product-btn{
+    margin-top: -35px;
+}
+.saved_image img{
+	width : 200px;
+	height : auto;
+}
+#login-form{
+	width: 50%;
+	height: 60%;
+	border: 2px solid #000;
+	border-radius: 7px 7px 15px rgba(0,0,0,0.6);
+	margin : 7% auto;
+	padding: 15px;
+	background-color: #fff;
+}
